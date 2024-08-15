@@ -23,7 +23,7 @@ const Banner = () => {
             </p>
           </div>
 
-          <button className="block rounded-md h-7 w-24 md:h-10 md:w-28 text-white bg-blue-800 mt-6 font-medium mx-auto md:mx-0 md:text-base  text-xs ">
+          <button className="block rounded-md h-7 w-24 md:h-12 md:w-28 text-white bg-blue-800 mt-6 font-medium mx-auto md:mx-0 md:text-base  text-xs ">
             Contact Us
           </button>
         </div>

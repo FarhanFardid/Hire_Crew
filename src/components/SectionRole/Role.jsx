@@ -29,19 +29,19 @@ const Role = () => {
     {
       heading: "Architects",
       details:
-        "'Architects design buildings and structures, balancing functionality, aesthetics, and client requirements with technical expertise.'",
+        '"Architects design buildings and structures, balancing functionality, aesthetics, and client requirements with technical expertise."',
       img: image5,
     },
     {
       heading: "Skilled Tradespeople",
       details:
-        "'Construction skilled tradespeople specialize in various crafts, ensuring quality workmanship in building and renovation projects.'",
+        '"Construction skilled tradespeople specialize in various crafts, ensuring quality workmanship in building and renovation projects."',
       img: image6,
     },
     {
       heading: "General Laborers",
       details:
-        "'General laborers support construction projects by performing tasks such as loading, unloading, and site cleaning.'",
+        '"General laborers support construction projects by performing tasks such as loading, unloading, and site cleaning."',
       img: image7,
     },
   ];
@@ -52,7 +52,7 @@ const Role = () => {
         sub='"We fill roles in construction, matching skilled professionals like engineers, supervisors,
 and laborers to projects requiring expertise and efficiency."'
       ></Title>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-12 py-6">
         {roleInfo.slice(0, 4).map((info, index) => (
           <RoleCard key={index} info={info}></RoleCard>
         ))}
