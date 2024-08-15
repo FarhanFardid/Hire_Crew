@@ -3,7 +3,7 @@ import icon2 from "../../assets/Icons/Icon 2.svg";
 const Header = () => {
   return (
     <div
-      className="bg-cover bg-no-repeat bg-center flex items-center p-6 md:p-12 max-w-full"
+      className="bg-cover bg-no-repeat bg-center flex items-center p-6 md:p-12 w-full"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="mx-auto text-center">

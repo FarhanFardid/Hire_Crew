@@ -2,16 +2,16 @@ import image1 from "../../assets/Images/Image 1.svg";
 
 const Banner = () => {
   return (
-    <div className="container-fluid hero p-6 md:p-32">
-      <div className="hero-content flex flex-col md:flex-row-reverse items-center justify-center gap-8 md:gap-16">
+    <div className="max-w-screen-2xl mx-auto p-6 md:py-28">
+      <div className="hero-content flex flex-col md:flex-row-reverse items-center justify-center gap-6 md:gap-16">
         <img src={image1} className="rounded-lg  flex-1 p-1" />
-        <div className="flex-1">
+        <div className="flex-1 max-w-4xl">
           <h1 className="text-2xl md:text-5xl font-semibold text-center md:text-left">
             Your Partner in international Construction Recruitment
           </h1>
-          <div className="pt-5 md:pt-8 ">
+          <div className="pt-5 md:pt-8 w-full ">
             {" "}
-            <p className="text-sm md:text-base text-black font-medium  text-justify md:text-left">
+            <p className="text-sm md:text-base text-black font-medium  text-justify md:text-left md:pe-8">
               "Hire & Fire Job's platform for the construction industry connects
               companies with skilled professionals globally. We streamline
               recruitment processes, ensuring precise matches for project
