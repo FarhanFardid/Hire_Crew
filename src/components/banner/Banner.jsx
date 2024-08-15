@@ -2,7 +2,7 @@ import image1 from "../../assets/Images/Image 1.svg";
 
 const Banner = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto p-6 md:py-28">
+    <div className="max-w-screen-2xl mx-auto p-6 md:py-24">
       <div className="hero-content flex flex-col md:flex-row-reverse items-center justify-center gap-6 md:gap-16">
         <img src={image1} className="rounded-lg  flex-1 p-1" />
         <div className="flex-1 max-w-4xl">
