@@ -2,7 +2,7 @@ import icon from "../../assets/Icons/Icon 3.svg";
 const RoleCard = ({ info }) => {
   const { heading, details, img } = info;
   return (
-    <div className="card bg-white md:w-96 shadow-xl rounded-md">
+    <div className="card bg-white md:w-96 shadow-2xl rounded-md">
       <figure className="p-2 md:p-4">
         <img src={img} alt="images" className="rounded-lg" />
       </figure>
