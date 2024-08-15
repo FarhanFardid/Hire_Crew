@@ -3,19 +3,21 @@ import icon2 from "../../assets/Icons/Icon 2.svg";
 const Header = () => {
   return (
     <div
-      className="bg-cover bg-no-repeat bg-center flex items-center p-14"
+      className="bg-cover bg-no-repeat bg-center flex items-center p-6 md:p-10"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="mx-auto text-center">
         {" "}
-        <h2 className="text-white font-semibold text-4xl mb-4">Construction</h2>
-        <ul className="flex  justify-center items-center font-medium p-1 md:p-0 md:space-x-3  md:mt-0   text-white">
+        <h2 className="text-white font-semibold text-2xl md:text-4xl mb-2 md:mb-4">
+          Construction
+        </h2>
+        <ul className="flex  justify-center items-center font-medium p-1 md:p-0 md:space-x-3  md:mt-0  text-sm md:text-base text-white">
           <li>
             <div className="flex items-center text-white">
               <a href="" className="block py-2 ">
                 Home
               </a>
-              <img src={icon2} alt="icon2" className="ps-2" />
+              <img src={icon2} alt="icon2" className="ps-2 w-6" />
             </div>
           </li>
           <li>
@@ -23,7 +25,7 @@ const Header = () => {
               <a href="" className="block py-2 ">
                 Industry
               </a>
-              <img src={icon2} alt="icon2" className="ps-2" />
+              <img src={icon2} alt="icon2" className="ps-2 w-6" />
             </div>
           </li>
           <li>
