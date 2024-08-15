@@ -1,10 +1,42 @@
-
+import backgroundImage from "../../assets/Images/Background image 1.svg";
+import icon2 from "../../assets/Icons/Icon 2.svg";
 const Header = () => {
-    return (
-        <div>
-            <h2>This is Header Part</h2>
-        </div>
-    );
+  return (
+    <div
+      className="bg-cover bg-no-repeat bg-center flex items-center p-14"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
+      <div className="mx-auto text-center">
+        {" "}
+        <h2 className="text-white font-semibold text-4xl mb-4">Construction</h2>
+        <ul className="flex  justify-center items-center font-medium p-1 md:p-0 md:space-x-3  md:mt-0   text-white">
+          <li>
+            <div className="flex items-center text-white">
+              <a href="" className="block py-2 ">
+                Home
+              </a>
+              <img src={icon2} alt="icon2" className="ps-2" />
+            </div>
+          </li>
+          <li>
+            <div className="flex items-center text-white">
+              <a href="" className="block py-2 ">
+                Industry
+              </a>
+              <img src={icon2} alt="icon2" className="ps-2" />
+            </div>
+          </li>
+          <li>
+            <div className="flex items-center text-white">
+              <a href="" className="block py-2 ">
+                Construction
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 };
 
 export default Header;
