@@ -52,14 +52,14 @@ const Role = () => {
         sub='"We fill roles in construction, matching skilled professionals like engineers, supervisors,
 and laborers to projects requiring expertise and efficiency."'
       ></Title>
-      <div className="grid grid-cols-4 gap-12 py-6">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-12 py-6">
         {roleInfo.slice(0, 4).map((info, index) => (
           <RoleCard key={index} info={info}></RoleCard>
         ))}
-        <div className="col-start-2 col-span-1">
+        <div className="md:col-start-2 md:col-span-1">
           <RoleCard info={roleInfo[4]}></RoleCard>
         </div>
-        <div className="col-start-3 col-span-1">
+        <div className="md:col-start-3 md:col-span-1">
           <RoleCard info={roleInfo[5]}></RoleCard>
         </div>
       </div>
