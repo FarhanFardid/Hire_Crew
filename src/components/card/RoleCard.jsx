@@ -1,4 +1,4 @@
-import icon from "../../assets/Icons/Icon 3.svg";
+import icon3 from "../../assets/Icons/Icon 3.svg";
 const RoleCard = ({ info }) => {
   const { heading, details, img } = info;
   return (
@@ -17,7 +17,7 @@ const RoleCard = ({ info }) => {
           <button className="btn text-xs md:text-sm font-medium">
             Contact Us{" "}
           </button>
-          <img src={icon} alt="" />
+          <img src={icon3} alt="icon" />
         </div>
       </div>
     </div>
