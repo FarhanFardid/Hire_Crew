@@ -17,7 +17,7 @@ const Contact = () => {
             <p className="text-xs md:text-sm text-center md:text-left font-medium">
               Say Something to start a live chat
             </p>
-            {/* Company Location */}
+
             <div className="flex justify-start items-center gap-3 md:gap-4">
               <div className="bg-blue-700 w-12 h-10 md:w-16 md:h-12 p-2 md:p-3 rounded-md">
                 <img src={icon8} alt="icon" className="md:w-10 md:h-7" />
@@ -30,7 +30,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Phone Number */}
             <div className="flex justify-start items-center gap-3 md:gap-4">
               <div className="bg-blue-700  w-10 h-10  md:w-14 md:h-12 p-2 md:p-3 rounded-md">
                 <img src={icon9} alt="icon" className="md:w-9 md:h-7" />
@@ -41,7 +40,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Email Address */}
             <div className="flex justify-start items-center gap-3 md:gap-4">
               <div className="bg-blue-700 w-10 h-10  md:w-14 md:h-12 p-2 md:p-3 rounded-md">
                 <img src={icon10} alt="icon" className="md:w-9 md:h-7" />

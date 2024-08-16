@@ -1,5 +1,16 @@
 import logo from "../../assets/Icons/Logo.svg";
 import icon3 from "../../assets/Icons/Icon 11.svg";
+import icon8 from "../../assets/Icons/Icon 8.svg";
+import icon9 from "../../assets/Icons/Icon 9.svg";
+import icon10 from "../../assets/Icons/Icon 10.svg";
+import {
+  FaFacebookF,
+  FaTelegramPlane,
+  FaTwitter,
+  FaInstagramSquare,
+} from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+
 const Footer = () => {
   const quickLinks = [
     "Home",
@@ -23,18 +34,18 @@ const Footer = () => {
     <div>
       <footer className="text-white bg-blue-900">
         <div className="mx-auto w-full max-w-screen-2xl">
-          <div className="grid grid-cols-1 md:grid-cols-12 items-start mx-auto py-5 md:py-7 gap-14">
+          <div className="grid grid-cols-1 md:grid-cols-12 items-start mx-auto py-5 md:py-7 gap-5 md:gap-14">
             <div className="md:col-span-4">
-              <div className="flex flex-col justify-center  pt-4">
-                <div className="py-4">
+              <div className="flex flex-col justify-center pt-2 md:pt-4 p-2 md:p-0">
+                <div className="py-1 md:py-4">
                   <img
                     src={logo}
-                    className="h-16 md:h-24 mr-4 rounded-md mx-auto md:mx-0"
+                    className="h-16 md:h-24 ms-4 md:ms-0 rounded-md"
                     alt="Logo"
                   />
                 </div>
                 <div className="flex flex-col justify-center font-medium">
-                  <p className="text-center md:text-left">
+                  <p className="text-left p-3 md:p-0">
                     Hire & Fire is a cutting-edge job website designed to
                     connect employers with top-tier talent across various
                     industries. Utilizing advanced matching algorithms, it
@@ -46,22 +57,22 @@ const Footer = () => {
                     Please note that it operates on an employer basis and does
                     not provide jobs directly to workers.
                   </p>
-                  <button className="block rounded-md h-10 w-24 md:h-12 md:w-28 text-white bg-[#e01133fc] mt-6 font-medium mx-auto md:mx-0 text-sm md:text-base">
+                  <button className="block rounded-md h-10 w-24 md:h-12 md:w-28 text-white bg-[#e01133fc] mt-6 font-medium m-2  md:mx-0 text-sm md:text-base">
                     Contact Us
                   </button>
                 </div>
               </div>
             </div>
 
-            <div className="md:col-span-2 pt-7">
+            <div className="md:col-span-2 md:pt-7 p-2 md:p-0">
               <h2 className="mb-4 md:mb-6 text-lg md:text-2xl font-medium">
                 Quick Links
               </h2>
-              <hr className="w-[130px] -mt-5" />
-              <ul className="font-medium text-lg text-[#AAA7B1]">
+              <hr className="w-[105px] md:w-[130px] -mt-5" />
+              <ul className="font-medium md:text-lg text-[#AAA7B1]">
                 {quickLinks.map((link) => (
                   <li key={link}>
-                    <div className="flex items-center text-white pt-3">
+                    <div className="flex items-center text-white pt-1 md:pt-3">
                       <img
                         src={icon3}
                         alt="icon"
@@ -76,15 +87,15 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="md:col-span-3 pt-7">
+            <div className="md:col-span-3 md:pt-7 pt-1 p-2 md:p-0">
               <h2 className="mb-4 md:mb-6 text-lg md:text-2xl font-medium">
                 Our Services
               </h2>
-              <hr className="w-[145px] -mt-5" />
-              <ul className="font-medium text-lg text-[#AAA7B1]">
+              <hr className=" w-[115px] md:w-[145px] -mt-5" />
+              <ul className="font-medium md:text-lg text-[#AAA7B1]">
                 {servicesLink.map((link) => (
                   <li key={link}>
-                    <div className="flex items-center text-white pt-3">
+                    <div className="flex items-center text-white pt-1 md:pt-3">
                       <img
                         src={icon3}
                         alt="icon"
@@ -99,8 +110,8 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="md:col-span-3 pt-7">
-              <h2 className="mb-4 md:mb-6 text-lg md:text-2xl font-medium">
+            <div className="md:col-span-3 md:pt-7 p-3 md:p-0">
+              <h2 className="mb-4 md:mb-6 text-lg md:text-2xl font-medium text-center md:text-left">
                 Get In Touch
               </h2>
               <div className="flex flex-col justify-center font-medium">
@@ -111,15 +122,44 @@ const Footer = () => {
                 <div className="flex items-center md:w-[380px] justify-center py-5">
                   <input
                     type="text"
-                    className="p-2 border border-gray-300 rounded-s-md  md:w-[330px] md:h-[50px] "
+                    className="p-2 border border-gray-300 rounded-s-md h-[35px] md:w-[330px] md:h-[50px] "
                     placeholder="Your Email Here"
                   />
                   <button
                     type="button"
-                    className="bg-[#e01133fc] text-white font-bold  text-xs md:text-sm px-3 md:px-7  py-1.5 md:py-4 rounded-md btn-xs "
+                    className="bg-[#e01133fc] text-white font-bold  text-xs md:text-sm px-3 md:px-7  py-1.5 md:py-4 h-[35px] md:h-[50px] rounded-md btn-xs "
                   >
                     Subscribe
                   </button>
+                </div>
+                <div className="flex justify-start items-center gap-3 md:gap-4 pt-5">
+                  <div className="bg-[#e01133fc] w-8 h-8  md:w-9 md:h-9  md:p-1 rounded-full">
+                    <img src={icon9} alt="icon" className="md:w-7 md:h-7 p-1" />
+                  </div>
+                  <p className="text-sm">+40 123 456 789 </p>
+                </div>
+                <div className="flex justify-start items-center gap-3 md:gap-4 pt-5">
+                  <div className="bg-[#e01133fc] w-8 h-8   md:w-9 md:h-9 p-1 rounded-full">
+                    <img
+                      src={icon10}
+                      alt="icon"
+                      className="md:w-7 md:h-7 p-1"
+                    />
+                  </div>
+                  <p className="text-sm">contact@hireandfire.agency </p>
+                </div>
+                <div className="flex justify-start items-center gap-3 md:gap-4 pt-5">
+                  <div className="bg-[#e01133fc] w-8 h-8  md:w-12 md:h-10 p-1 rounded-full">
+                    <img
+                      src={icon8}
+                      alt="icon"
+                      className="w-7 h-7 md:w-10 md:h-8 "
+                    />
+                  </div>
+                  <p className="text-sm">
+                    Strada ING. Zablovschi, Nr. 10, Biroul 1, Sectorul 1,
+                    Bucuresti, Romania.{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -129,7 +169,7 @@ const Footer = () => {
             <span className="text-sm font-medium">
               © Copyright 2024 <a href="">"Hire & Fire"</a> All Rights Reserved.
             </span>
-            <div className="flex mt-3 md:mt-4 justify-center  space-x-5 rtl:space-x-reverse">
+            <div className="flex justify-center  space-x-5 rtl:space-x-reverse">
               <a href="#" className="text-white">
                 Privacy Policy
               </a>
@@ -140,8 +180,20 @@ const Footer = () => {
                 Cookie Policy
               </a>
             </div>
-            <div className="flex mt-3 md:mt-4 justify-center  space-x-5 rtl:space-x-reverse">
+            <div className="flex justify-center  space-x-5 rtl:space-x-reverse">
               <p>Follow Us</p>
+              <div className="bg-white inline-block p-1 rounded-full">
+                <FaFacebookF className="text-[#e01133] text-sm" />
+              </div>
+              <div className="bg-white inline-block p-1 rounded-full">
+                <AiFillInstagram className="text-[#e01133] text-sm" />
+              </div>
+              <div className="bg-white inline-block p-1 rounded-full">
+                <FaTwitter className="text-[#e01133] text-sm" />
+              </div>
+              <div className="bg-white inline-block p-1 rounded-full">
+                <FaTelegramPlane className="text-[#e01133] text-sm" />
+              </div>
             </div>
           </div>
         </div>
