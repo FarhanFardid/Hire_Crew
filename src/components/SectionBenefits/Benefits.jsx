@@ -38,7 +38,7 @@ const Benefits = () => {
         sub='"Benefit from our efficient hiring process, matching qualified candidates to your construction
 projects, ensuring quality and reliability."'
       ></Title>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-12 py-6">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-16 md:gap-y-0 md:gap-x-14 py-12 md:py-24">
         {benefitsInfo.map((info, index) => (
           <BenefitCard key={index} info={info}></BenefitCard>
         ))}
