@@ -100,13 +100,31 @@ const Footer = () => {
             </div>
 
             <div className="md:col-span-3 pt-7">
-            <h2 className="mb-4 md:mb-6 text-lg md:text-2xl font-medium">
+              <h2 className="mb-4 md:mb-6 text-lg md:text-2xl font-medium">
                 Get In Touch
               </h2>
-            
+              <div className="flex flex-col justify-center font-medium">
+                <p className="text-center md:text-left">
+                  Subscribe Our Newsletter to Get Latest Update & News
+                </p>
+
+                <div className="flex items-center md:w-[380px] justify-center py-5">
+                  <input
+                    type="text"
+                    className="p-2 border border-gray-300 rounded-s-md  md:w-[330px] md:h-[50px] "
+                    placeholder="Your Email Here"
+                  />
+                  <button
+                    type="button"
+                    className="bg-[#e01133fc] text-white font-bold  text-xs md:text-sm px-3 md:px-7  py-1.5 md:py-4 rounded-md btn-xs "
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-<hr className="mt-5" />
+          <hr className="mt-5" />
           <div className="px-2 py-5 md:px-4 md:py-12 text-center md:text-left text-white md:flex md:items-center md:justify-between">
             <span className="text-sm font-bold">
               © Copyright 2024 <a href="">"Hire & Fire"</a> All Rights Reserved.
@@ -124,7 +142,6 @@ const Footer = () => {
             </div>
             <div className="flex mt-3 md:mt-4 justify-center  space-x-5 rtl:space-x-reverse">
               <p>Follow Us</p>
-              
             </div>
           </div>
         </div>
