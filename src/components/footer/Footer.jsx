@@ -32,7 +32,7 @@ const Footer = () => {
   ];
   return (
     <div>
-      <footer className="text-white bg-blue-900">
+      <footer className="text-white bg-blue-800">
         <div className="mx-auto w-full max-w-screen-2xl">
           <div className="grid grid-cols-1 md:grid-cols-12 items-start mx-auto py-5 md:py-7 gap-5 md:gap-14">
             <div className="md:col-span-4">
@@ -165,11 +165,11 @@ const Footer = () => {
             </div>
           </div>
           <hr className="mt-5" />
-          <div className="px-2 py-5 md:px-4 md:py-12 text-center md:text-left text-white md:flex md:items-center md:justify-between">
-            <span className="text-sm font-medium">
+          <div className="py-5 md:py-12 text-center md:text-left text-white flex flex-col md:flex-row md:items-center md:justify-between gap-2 md:gap-4">
+            <span className="text-sm md:text-base font-medium">
               © Copyright 2024 <a href="">"Hire & Fire"</a> All Rights Reserved.
             </span>
-            <div className="flex justify-center  space-x-5 rtl:space-x-reverse">
+            <div className="flex justify-center  space-x-5 rtl:space-x-reverse text-xs md:text-base font-medium">
               <a href="#" className="text-white">
                 Privacy Policy
               </a>
@@ -180,7 +180,7 @@ const Footer = () => {
                 Cookie Policy
               </a>
             </div>
-            <div className="flex justify-center  space-x-5 rtl:space-x-reverse">
+            <div className="flex justify-center  space-x-5 rtl:space-x-reverse text-xs md:text-base font-medium">
               <p>Follow Us</p>
               <div className="bg-white inline-block p-1 rounded-full">
                 <FaFacebookF className="text-[#e01133] text-sm" />
