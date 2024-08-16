@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/banner/Banner";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import NewsLetter from "./components/newsletter/NewsLetter";
@@ -17,6 +18,7 @@ function App() {
       <Benefits></Benefits>
       <NewsLetter></NewsLetter>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }
