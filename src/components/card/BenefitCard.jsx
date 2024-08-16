@@ -3,7 +3,7 @@ const BenefitCard = ({ info }) => {
   return (
     <div className="card bg-gray-100 md:w-96 shadow-2xl rounded-md relative  border-b-8 border-[#e01133fc]">
       <div className="h-20 w-20 md:h-28 md:w-28 mx-auto -mt-10 md:-mt-16 mb-4 relative border-2 border-dotted  border-[#e01133fc] rounded-full p-2 bg-white">
-        <div className="h-full w-full rounded-full  bg-white flex items-center justify-center bg-[#e01133fc]">
+        <div className="h-full w-full rounded-full  flex items-center justify-center bg-[#e01133fc]">
           <img
             src={icon}
             alt="images"
