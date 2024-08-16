@@ -126,7 +126,7 @@ const Footer = () => {
           </div>
           <hr className="mt-5" />
           <div className="px-2 py-5 md:px-4 md:py-12 text-center md:text-left text-white md:flex md:items-center md:justify-between">
-            <span className="text-sm font-bold">
+            <span className="text-sm font-medium">
               © Copyright 2024 <a href="">"Hire & Fire"</a> All Rights Reserved.
             </span>
             <div className="flex mt-3 md:mt-4 justify-center  space-x-5 rtl:space-x-reverse">
